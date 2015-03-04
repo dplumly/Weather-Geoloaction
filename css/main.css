@@ -15,7 +15,7 @@
 ::-webkit-scrollbar { display: none; }
 
 body {
-  padding: 45px 25px;
+  padding: 25px;
   font: 13px 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   background: #1192d3;
 }
@@ -132,23 +132,22 @@ i {
 button {
   display: block;
   margin: 50px auto;
-  width: 80%;
-  padding: 30px;
+  padding: 10px 30px;
   background: transparent;
   color: #fff;
   border: 5px solid #fff;
   border-radius: 5px;
   font-family: 'walkway_boldregular', Arial, sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 
 @media only screen and (max-width: 768px) {
-    #clock { font-size: 6em !important; }
+    #clock { font-size: 4em !important; }
 }
 
 @media only screen and (max-width: 768px) {
-    #date { font-size: 1.3em !important; }
+    #date { font-size: 1.1em !important; }
 }
 
 @media only screen and (max-width: 768px) {
