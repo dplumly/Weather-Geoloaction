@@ -17,6 +17,15 @@ h4 { font-size: 23px; }
 h5 { font-size: 17px; }
 h6 { font-size: 14px; }
 
+#clock, #date { 
+    text-align: center;
+    font-size: 12em; 
+    font-family:'walkway_boldregular', Arial, sans-serif; 
+    color:#fff
+}
+
+#date { font-size: 2em; }
+
 
 @media only screen and (max-width: 768px) {
     #clock {
@@ -149,12 +158,16 @@ i {
 
 button {
   display: block;
-  margin: 15px auto;
-  width: 140px;
-  padding: 5px;
+  margin: 50px auto;
+  width: 80%;
+  padding: 30px;
   background: transparent;
   color: #fff;
-  border: 1px solid rgba(255,255,255,0.40);
+  border: 5px solid #fff;
   border-radius: 5px;
   font-family: 'walkway_boldregular', Arial, sans-serif;
+  font-size: 2em;
 }
+
+
+
