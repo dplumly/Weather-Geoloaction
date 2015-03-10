@@ -49,7 +49,7 @@ h6 { font-size: 14px; }
 
 #weather p { 
     position: relative;
-    top: 10px;
+    top: 15px;
     padding: 6px;
     font-family: 'walkway_boldregular', Arial, sans-serif;
     display: inline;
