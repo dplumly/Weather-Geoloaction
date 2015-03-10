@@ -15,7 +15,7 @@
 ::-webkit-scrollbar { display: none; }
 
 body {
-  padding: 25px;
+  padding-top: 25px;
   font: 13px 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   background: #1192d3;
 }
@@ -36,15 +36,23 @@ h6 { font-size: 14px; }
     color:#fff
 }
 
-#date { font-size: 2em; }
+#date { font-size: 2em; letter-spacing: 5px; }
 
 #weather { 
   text-align: center;
   text-transform: uppercase;
   position: relative;
-  width: 300px;
+  width: 400px;
   margin: 0 auto;
   display: table;
+}
+
+#weather p { 
+    position: relative;
+    top: 10px;
+    padding: 6px;
+    font-family: 'walkway_boldregular', Arial, sans-serif;
+    display: inline;
 }
 
 i {
@@ -116,7 +124,7 @@ i {
   font-family: 'walkway_boldregular', Arial, sans-serif;
 }
 
-#weather ul { margin: 0 auto; display: inline-block; }
+#weather ul { margin: 0 auto; display: table; }
 
 #weather li {
   background: rgba(255,255,255,0.90);
@@ -131,7 +139,7 @@ i {
 
 button {
   display: block;
-  margin: 50px auto;
+  margin: 30px auto;
   padding: 10px 30px;
   background: transparent;
   color: #fff;
@@ -139,19 +147,19 @@ button {
   border-radius: 5px;
   font-family: 'walkway_boldregular', Arial, sans-serif;
   font-size: 1.5em;
+  outline: none;
 }
 
 
 @media only screen and (max-width: 768px) {
     #clock { font-size: 4em !important; }
-}
-
-@media only screen and (max-width: 768px) {
     #date { font-size: 1.1em !important; }
+    #weather li { margin: 10px 0 !important; }
+    #weather p { display: block; }
 }
 
-@media only screen and (max-width: 768px) {
-    #weather li { margin: 10px 0 !important; }
+@media ( min-width: 768px) {
+  button.js-geolocation { display: none !important; }
 }
 
 
