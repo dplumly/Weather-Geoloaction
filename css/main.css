@@ -42,7 +42,6 @@ h6 { font-size: 14px; }
   text-align: center;
   text-transform: uppercase;
   position: relative;
-  width: 400px;
   margin: 0 auto;
   display: table;
 }
@@ -58,7 +57,7 @@ h6 { font-size: 14px; }
 i {
   color: #fff;
   font-family: weather;
-  font-size: 63px;
+  font-size: 50px;
   font-weight: normal;
   font-style: normal;
   line-height: 1.0;
@@ -155,7 +154,7 @@ button {
     #clock { font-size: 4em !important; }
     #date { font-size: 1.1em !important; }
     #weather li { margin: 10px 0 !important; }
-    #weather p { display: block; }
+    #weather p { display: table; margin: 0 auto; }
 }
 
 @media ( min-width: 768px) {
