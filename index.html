@@ -46,7 +46,7 @@
         html += '<li style="display:none;" class="currently">'+weather.currently+'</li>';
         html += '<li style="display:none;">'+weather.alt.temp+'&deg;C</li></ul>';
 
-         for(var i=0; i<weather.forecast.length; i++) {
+         for(var i=0; i<weather.forecast.length -5; i++) {
                 html += '<p>'+weather.forecast[i].day+': '+weather.forecast[i].high+'</p>';
               }
   
